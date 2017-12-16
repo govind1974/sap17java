@@ -12,8 +12,13 @@ public class Interest {
 	}
 	
 	public double calcCompound(){
-		double ci = amt * Math.pow((1 + rate/100), years);
+		return amt * Math.pow((1 + rate/100), years);
 		
-		return ci;
+	}
+	
+	public void display(){
+		System.out.println(amt + " " + years + " " + rate );
+		System.out.println("simple=" + calcSimple() );
+		System.out.println(("compound=" + calcCompound()));
 	}
 }
