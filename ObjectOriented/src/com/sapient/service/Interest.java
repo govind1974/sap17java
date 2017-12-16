@@ -11,6 +11,7 @@ public class Interest {
 		return si;
 	}
 	
+	
 	public double calcCompound(){
 		return amt * Math.pow((1 + rate/100), years);
 		
