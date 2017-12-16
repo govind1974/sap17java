@@ -9,7 +9,7 @@ public class CircleClient {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter the amount");
+		System.out.println("Enter the amt");
 		double rad = scan.nextDouble();
 		Circle obj = new Circle();
 		obj.radius=rad;
