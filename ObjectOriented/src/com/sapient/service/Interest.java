@@ -5,7 +5,7 @@ public class Interest {
 	public double amt;
 	public int years;
 	public float rate;
-	
+	/* performs simple interest  */
 	public double calcSimple(){
 		double si = amt * years * rate /100;
 		return si;
